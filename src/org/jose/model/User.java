@@ -11,9 +11,17 @@ package org.jose.model;
  * 
  * Para ver historico de commits debemos abrir la vista "history"
  * 
+ * Para crear una rama, usando la vista "history", boton derecho a partir del commit y create new branch
+ * 
  * Para hacer un merge, hacemos chekcout de la rama destino, y seleccionamos el "commit" de la rama origen a mergear.
  * 
- * Para crear una rama, usando la vista "history", boton derecho a partir del commit y create new branch
+ * Al hacer un merge puede haber conflictos, para solucionarlos, lo que debemos hacer es boton derecho en el archivo con
+ * conflictos - team - merge tool. Pasamos a la parte de la izda lo que queramos que hay en la derecha. Guardamos y listo.
+ * Luego podremos hacer el merge correctamente sin problemas.
+ * 
+ * Para configurar un repositorio remoto, debemos abrir la vista de "Git repositories", boton derecho en "Remotes" y
+ * añadimos el repo, user name y pass. Una vez hecho esto pulsamos en "advance" y decimos de sincronizar tanto las
+ * branches como los tags.
  * 
  * */
 public class User {
