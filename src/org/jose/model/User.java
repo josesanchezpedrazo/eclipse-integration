@@ -11,6 +11,8 @@ package org.jose.model;
  * 
  * Para ver historico de commits debemos abrir la vista "history"
  * 
+ * Para hacer un merge, hacemos chekcout de la rama destino, y seleccionamos el "commit" de la rama origen a mergear.
+ * 
  * */
 public class User {
 
