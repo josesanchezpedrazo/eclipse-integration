@@ -13,10 +13,13 @@ package org.jose.model;
  * 
  * Para hacer un merge, hacemos chekcout de la rama destino, y seleccionamos el "commit" de la rama origen a mergear.
  * 
+ * Para crear una rama, usando la vista "history", boton derecho a partir del commit y create new branch
+ * 
  * */
 public class User {
 
 	private String name;
+	private int age;
 
 	public String getName() {
 		return name;
@@ -29,5 +32,13 @@ public class User {
 	@Override
 	public String toString() {
 		return "User [name=" + name + "]";
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
 	}
 }
