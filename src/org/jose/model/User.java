@@ -11,6 +11,8 @@ package org.jose.model;
  * 
  * Para ver historico de commits debemos abrir la vista "history"
  * 
+ * Para crear una rama, usando la vista "history", boton derecho a partir del commit y create new branch
+ * 
  * */
 public class User {
 
