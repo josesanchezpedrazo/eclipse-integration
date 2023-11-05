@@ -9,6 +9,8 @@ package org.jose.model;
  * 
  * Para crear getters y setters de forma automatica asi como un to string, boton derecho sobre la clase - source - Generate ....
  * 
+ * Para ver historico de commits debemos abrir la vista "history"
+ * 
  * */
 public class User {
 
